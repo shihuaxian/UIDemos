@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#a0a0aaa0">
+	    <Button
+	        android:id="@+id/title_bar_switch_set_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:text="@string/str_title_bar_btn_to_main" />	
+	    <Button
+	        android:id="@+id/title_bar_switch_set_size"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/title_bar_switch_set_back"
+	        android:layout_centerVertical="true"
+	        android:text="@string/str_title_bar_set_size" />
+	    <Button
+	        android:id="@+id/title_bar_switch_set_color"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/title_bar_switch_set_size"
+	        android:layout_centerVertical="true"
+	        android:text="@string/str_title_bar_set_color" />
+	    <Button
+	        android:id="@+id/title_bar_switch_set_style"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/title_bar_switch_set_color"
+	        android:layout_centerVertical="true"
+	        android:text="@string/str_title_bar_set_style" />    
+
+</RelativeLayout>

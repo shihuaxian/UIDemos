@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProMonkey" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pro_monkey_about"
+        android:layout_alignParentTop="true" >
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_chapter_slide_menu"
+			        android:onClick="onChapterSlideClick" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_bottom_navigate_menu"
+			        android:onClick="onBottomNavigateClick" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_expand_list_select"
+			        android:onClick="onExpandListClick" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_double_frg_list"
+			        android:onClick="onDoubleFrgClick" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_title_bar_animator"
+			        android:onClick="onTitlebarAniClick" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="onLiccClick" />
+			</LinearLayout>
+			<!-- 新增加测试 -->
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/diy_slide_click_str"
+			        android:onClick="onSlideClick" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="onLiccClick" />
+			</LinearLayout>
+		</LinearLayout>
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/pro_monkey_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/str_pro_monkey_about"
+        android:onClick="onAoutClick" />
+    
+</RelativeLayout>

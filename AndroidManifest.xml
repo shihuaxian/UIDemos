@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gabriel.luoyer.promonkey"
+    android:versionCode="6"
+    android:versionName="1.5" >
+
+    <uses-sdk android:minSdkVersion="8" />
+	<!-- waps -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<!-- waps end -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="gabriel.luoyer.promonkey.ProMonkey"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="gabriel.luoyer.promonkey.cptslide.ChapterSlideActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity android:name=".SlidingDrawerActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+            android:name="gabriel.luoyer.promonkey.menu.MenuAboutActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name="gabriel.luoyer.promonkey.navi.BottomNavigateActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name="gabriel.luoyer.promonkey.explist.ExpListSelectActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name="gabriel.luoyer.promonkey.doublefrglist.DoubleFrgListActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+            android:name="gabriel.luoyer.promonkey.titlebarani.TitleBarAniActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+            android:name="gabriel.luoyer.promonkey.licc.LiChildClickActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                    
+ 		<!-- waps -->
+		<activity android:name="cn.waps.OffersWebView"
+			android:configChanges="keyboardHidden|orientation" />
+        <meta-data android:name="APP_ID" android:value="ca334bd02fa486469288aec1aeba5ff9" />
+        <meta-data android:name="APP_PID" android:value="WAPS" />
+		<!-- waps end -->
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+    
+    <LinearLayout
+        android:layout_above="@+id/explist_confirm"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:drawable/title_bar" >
+	        <TextView
+	          style="@style/title_tv_style"
+	          android:layout_centerInParent="true"
+	          android:text="@string/str_expand_list_select"  />        
+	
+	    </RelativeLayout>
+	    
+		<ExpandableListView
+			android:id="@+id/explist_select"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:groupIndicator="@color/color_transparent"
+			android:cacheColorHint="@color/color_transparent"
+			android:listSelector="@color/color_transparent"
+			android:childDivider="@android:color/darker_gray"
+			android:dividerHeight="1dip"
+			android:divider="@android:color/darker_gray"
+			android:fadingEdge="none" />
+		
+		</LinearLayout>
+		
+
+	    <LinearLayout
+	        android:id="@+id/explist_confirm"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:padding="3dip"
+	        android:weightSum="5"
+	        android:background="@android:drawable/title_bar" >
+	        <Button
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:text="@android:string/ok"
+	            android:onClick="onOkClick"  />	  
+	        <Button
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:text="@android:string/cancel"
+	            android:onClick="onCancelClick"  />	  	
+	    </LinearLayout>
+</RelativeLayout>

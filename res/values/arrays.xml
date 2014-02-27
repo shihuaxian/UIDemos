@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- home chapter item name -->
+    <string-array name="array_cpt_slide_name">
+        <item>初入紫霞宗</item>
+        <item>举重剑无锋</item>
+        <item>会当凌绝顶</item>
+        <item>一览众山小</item>
+        <item>五行生灭道</item>
+        <item>雷池炼天途</item>
+        <item>金天百战榜</item>
+        <item>白灵生死门</item>
+        <item>诸天气荡荡</item>
+        <item>百阵凌九霄</item>
+        <item>神魔逆大道</item>
+        <item>混沌万世空</item>
+    </string-array>
+    <!-- expand list select title item name -->
+    <string-array name="array_explist_title_name">
+        <item>@string/str_tk_wei</item>
+        <item>@string/str_tk_shu</item>
+        <item>@string/str_tk_wu</item>
+    </string-array>
+    <string-array name="array_explist_child_wei_name">
+        <item>曹操</item>
+        <item>郭嘉</item>
+        <item>张辽</item>
+        <item>司马懿</item>
+        <item>荀彧</item>
+    </string-array>
+    <string-array name="array_explist_child_shu_name">
+        <item>刘备</item>
+        <item>诸葛亮</item>
+        <item>关羽</item>
+        <item>张飞</item>
+        <item>庞统</item>
+        <item>赵云</item>
+        <item>马超</item>
+        <item>黄忠</item>
+        <item>魏延</item>
+        <item>刘禅</item>
+        <item>姜维</item>
+        <item>王平</item>
+        <item>马良</item>
+        <item>蒋琬</item>
+    </string-array>
+    <string-array name="array_explist_child_wu_name">
+        <item>孙坚</item>
+        <item>孙策</item>
+        <item>孙权</item>
+        <item>周瑜</item>
+        <item>鲁肃</item>
+        <item>甘宁</item>
+        <item>太史慈</item>
+    </string-array>
+</resources>

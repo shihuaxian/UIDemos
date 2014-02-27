@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/xmenu_about_item_bk"
+	android:paddingLeft="16dip"
+	android:paddingRight="16dip"
+	android:paddingTop="20dip"
+	android:paddingBottom="20dip"
+	android:gravity="center" >
+	
+	<LinearLayout
+	    android:id="@+id/cpt_gv_item_select_region"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dip"
+		android:orientation="vertical"
+		android:background="@drawable/xmenu_about_item_bk"
+		android:clickable="true"
+		android:gravity="center" >
+		<!-- set default background, to hold the sapce for empty item -->
+	    <ImageView
+	        android:id="@+id/cpt_gv_item_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:duplicateParentState="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/ic_launcher"
+	        android:contentDescription="@null"/>	
+	    <TextView
+	        android:id="@+id/cpt_gv_item_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:duplicateParentState="true"
+	        android:paddingTop="5dip"
+	        android:textSize="15sp"
+	        android:textColor="@android:color/primary_text_light"
+	        android:lines="3"
+	        android:gravity="center_horizontal"
+	        android:ellipsize="end" />
+	</LinearLayout>
+</LinearLayout>

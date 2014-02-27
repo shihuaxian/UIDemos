@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_view_bkg"
+    android:id="@+id/double_list_container" >
+    <LinearLayout
+        android:layout_above="@+id/double_frg_confirm"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:drawable/title_bar" >
+	        <TextView
+	          style="@style/title_tv_style"
+	          android:layout_centerInParent="true"
+	          android:text="@string/str_expand_list_select"  />        
+	    </RelativeLayout>
+		<TextView
+		            android:id="@+id/list_double_list_select_info"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:padding="3dip"
+		            android:text="@string/str_list_double_list_select_info" />	    
+	    <LinearLayout
+	        android:baselineAligned="false"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" >
+	    	<fragment android:name="gabriel.luoyer.promonkey.doublefrglist.DoubleListFirstFragment"   
+	            android:id="@+id/list_first_title_list"   
+	            android:layout_weight="5"   
+	            android:layout_width="0dp"   
+	            android:layout_height="match_parent" />
+	    
+	    	<fragment android:name="gabriel.luoyer.promonkey.doublefrglist.DoubleListSecondFragment"   
+	            android:id="@+id/list_second_content_list"   
+	            android:layout_weight="8"   
+	            android:layout_width="0dp"   
+	            android:layout_height="match_parent" />  
+		</LinearLayout>
+		
+		</LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/double_frg_confirm"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:padding="3dip"
+	        android:weightSum="5"
+	        android:background="@android:drawable/title_bar" >
+	        <Button
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:text="@android:string/ok"
+	            android:onClick="onConfirmBtnClick"  />	  
+
+	    </LinearLayout>
+</RelativeLayout>

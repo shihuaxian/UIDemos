@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@color/color_transparent"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/list_dobule_list_first_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:maxLength="20"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:textSize="18sp"
+        android:textColor="#6D6D6D" />
+</LinearLayout>

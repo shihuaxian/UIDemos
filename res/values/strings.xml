@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">程序猿媛</string>
+
+    <string name="str_pro_monkey_about">关于作者及源码下载</string>
+    
+    <string name="str_empty_btn">待\n添加</string>
+    
+    <string name="str_loading_wait">请稍候…</string>
+    <!-- declaration -->
+    <string name="str_declare_dialog_title">声明</string>
+    <string name="str_declare_dialog_msg">鉴于以下：\n  为猿媛之间，纯代码友谊的交流；\n  网上转贴泛滥，很难找到原帖；\n  应用市场应该不会收录，而后续会有更新维护；\n  应用使用了第三方平台，为更新途径，和应用推荐，望应允！</string>
+    <string name="str_declare_dialog_btn_accept">同意</string>
+    <string name="str_declare_dialog_btn_refuse">拒绝</string>
+    
+    <string name="str_tk_wei">魏</string>
+    <string name="str_tk_shu">蜀</string>
+    <string name="str_tk_wu">吴</string>
+    
+    <!-- chapter slide -->
+    <string name="title_chapter_slide_menu">章节左右滑动\n点击空白事件</string>
+    <string name="str_toast_click_anzai">去首页“关于作者及源码下载”下载源码吧！</string>
+    
+    <!-- viewpager navigate -->
+    <string name="title_bottom_navigate_menu">底部导航栏\nFragment+ViewPager</string>
+    <string name="str_btm_navi_name_hp">首页</string>
+    <string name="str_btm_navi_name_lv">列表</string>
+    <string name="str_btm_navi_name_vp">ViewPager</string>
+    <string name="str_btm_navi_hp_info">    本示例，通过 ViewPager + RadioGroup，实现了底部导航栏功能。
+        \n    ViewPager中可以包含不同类型的 Fragment，如：\n  “首页”包含了一个文本；\n  “列表”包含了一个列表；\n  “ViewPager” 则又嵌入了一个可以手势滑动切换的“ViewPager”。</string>
+    
+    <!-- expand list select -->
+    <string name="title_expand_list_select">二级列表选择\nExpandableListView</string>
+    <string name="str_expand_list_select">选择人物</string>
+    <string name="str_trans_receiver_num"> (%1$d / %2$d) </string>
+    
+    <!-- double fragment list -->
+    <string name="title_double_frg_list">双列表选择\nFragment</string>
+    <string name="str_list_double_list_select_info">最多可选%1$s项【您已选%2$s项】</string>
+    
+    <!-- title bar animator -->
+    <string name="title_title_bar_animator">标题栏多级分类\nViewAnimator</string>
+    <string name="str_title_bar_animator_info">标题栏功能按钮，分类多级显示！\n实际应用中，您可以自定义每栏的按钮功能，达到分类、分级显示功能按钮的效果。</string>
+    <string name="str_title_bar_main_msg">点击右侧“切换”，动画显示二级标题</string>
+    <string name="str_title_bar_btn_to_sec_set">设置</string>
+    <string name="str_title_bar_btn_to_sec_class">分类</string>
+    <string name="str_title_bar_btn_to_sec_tk">三国</string>
+    <string name="str_title_bar_sec_msg">点击右侧“返回”，动画回到主标题</string>
+    <string name="str_title_bar_btn_to_main">返回</string>
+     <string name="str_title_bar_set_size">大小</string>
+    <string name="str_title_bar_set_color">颜色</string>
+    <string name="str_title_bar_set_style">样式</string>
+    <string name="str_title_bar_class_force">武力</string>
+    <string name="str_title_bar_class_wisdom">智慧</string>
+    <string name="str_title_bar_class_politics">政治</string>
+    
+    <!-- list item children click -->
+    <string name="title_listitem_child_click">列表项点击事件，消息传递</string>
+    <string name="str_licc_hint_def">点击提示信息\n可点击“列表项”，也可点击“按钮”和“文本”</string>
+    <string name="str_licc_item">点击了列表,\n第%1$d项，【%2$s， %3$s】</string>
+    <string name="str_licc_btn_country">点击了按钮，\n%1$s说：我来自%2$s，我骄傲！</string>
+    <string name="str_licc_tv_name">点击了文本，\n三国时期，%1$s国的%2$s。</string>
+    
+    <!-- diy -->
+    <string name="diy_slide_click_str">抽屉效果</string>
+    
+    <!-- menu about -->
+    <string name="str_ma_get_source">获取源码</string>
+    <string name="str_ma_get_source_ok_dialog_title">获取提醒</string>
+    <string name="str_ma_get_source_ok_dialog_msg">源码将复制到%1$s中。</string>
+    <string name="str_ma_get_source_dialog_title">当前积分0</string>
+    <string name="str_ma_get_source_dialog_msg">悉知：积分不为0即可，下载不扣除，后续更新仍可下载！\n都是苦逼的猿、媛，支持一下吧，这个可以有！</string>
+    <string name="str_ma_get_source_dialog_btn_go">支持一下</string>
+    <string name="str_ma_get_source_dialog_btn_cancel">放弃代码</string>
+    <string name="str_ma_get_source_dialog_btn_rego">再支持一下</string>
+    <string name="str_ma_get_source_dialog_title_ok">获取成功</string>
+    <string name="str_ma_get_source_dialog_msg_ok">源码已经复制到%1$s中，请注意查看！\n如果美女帅锅觉得还代码还可以，别忘记再来支持一下！</string>
+    <string name="str_ma_mailto">信息反馈\ngluoyer@gmail.com</string>
+    <string name="str_ma_mail">gluoyer@gmail.com</string>
+    <string name="str_ma_access_hompage">访问主页\nhttp://my.oschina.net/gluoyer/blog</string>
+    <string name="str_ma_hompage">http://my.oschina.net/gluoyer/blog</string>
+    <string name="str_ma_other_app">作者其他应用</string>
+    <string name="str_ma_rmd">推荐</string>
+</resources>

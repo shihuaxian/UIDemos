@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_view_bkg" >
+
+   <ViewAnimator
+       android:id="@+id/title_bar_switcher"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+	<LinearLayout
+		android:id="@+id/title_bar_main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:background="#a0a00aa0">
+	    <Button
+	        android:id="@+id/title_bar_switch_sec_tk"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/str_title_bar_btn_to_sec_tk" />
+	    <Button
+	        android:id="@+id/title_bar_switch_sec_class"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/str_title_bar_btn_to_sec_class" />
+	    <Button
+	        android:id="@+id/title_bar_switch_sec_set"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/str_title_bar_btn_to_sec_set" />
+	</LinearLayout>
+	
+	<include
+	    android:id="@+id/title_bar_sec_set"
+	    layout="@layout/title_bar_ani_set" />
+		<include
+	    android:id="@+id/title_bar_sec_class"
+	    layout="@layout/title_bar_ani_class" />
+	
+	<include
+	    android:id="@+id/title_bar_sec_tk"
+	    layout="@layout/title_bar_ani_tk" />
+
+   </ViewAnimator>
+
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:text="@string/str_title_bar_animator_info"
+	    android:textColor="@color/color_txt_dark_gray"
+	    android:textSize="18sp" />
+</LinearLayout>

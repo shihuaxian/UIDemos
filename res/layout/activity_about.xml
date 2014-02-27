@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_view_bkg" >
+    <Button
+        android:id="@+id/btn_get_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickGetSource"
+        android:text="@string/str_ma_get_source"
+        android:layout_alignParentBottom="true" />
+	
+    <ScrollView
+        android:layout_above="@id/btn_get_source"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ma_mailto"
+                android:onClick="clickMailTo" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ma_access_hompage"
+                android:onClick="clickAccessHomePage" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ma_other_app"
+                android:onClick="clickOtherApp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ma_rmd"
+                android:onClick="clickRecommend" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

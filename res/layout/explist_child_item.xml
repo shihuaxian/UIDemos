@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_selector"
+    android:padding="8dip"
+    android:gravity="center_vertical" >
+    
+    <ImageView
+        android:id="@+id/explist_child_item_select"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:scaleType="fitXY"
+        android:background="@drawable/select_item_img"
+        android:contentDescription="@null" />
+        
+   <TextView
+       android:id="@+id/explist_child_item_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="4dip"
+       android:textSize="16sp"
+       android:duplicateParentState="true"
+       android:textColor="@color/color_txt_gray" />
+</LinearLayout>

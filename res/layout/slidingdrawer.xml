@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<SlidingDrawer
+	    android:id="@+id/sliding"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:content="@+id/apps_content"
+	    android:handle="@+id/handle_image"
+	    android:orientation="vertical" >
+		
+	    <GridView
+	        android:id="@+id/apps_content"
+	        android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:background="#303030"  
+            android:columnWidth="60dp"  
+            android:gravity="center"  
+            android:horizontalSpacing="10dp"  
+            android:numColumns="auto_fit"  
+            android:padding="10dp"  
+            android:stretchMode="columnWidth"  
+            android:verticalSpacing="10dp" >
+	    </GridView>
+	    
+	    <ImageView
+	        android:id="@+id/handle_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/btm_navi_item_bkg" />
+	    
+	</SlidingDrawer>
+	
+</LinearLayout>

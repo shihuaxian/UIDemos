@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	
+	<style name="radio_btn_style">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:paddingTop">15dip</item>
+	    <item name="android:paddingBottom">15dip</item>
+		<item name="android:button">@null</item>
+	    <item name="android:background">@drawable/btm_navi_item_bkg</item>
+	    <item name="android:textColor">@color/color_btm_navi_txt</item>
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:duplicateParentState">true</item>
+	</style>
+	
+	<style name="title_tv_style">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:textSize">22sp</item>
+	        <item name="android:textStyle">bold</item>
+	        <item name="android:textColor">@android:color/white</item>
+	        <item name="android:shadowColor">@android:color/black</item>
+	        <item name="android:shadowRadius">3</item>
+	        <item name="android:shadowDx">2</item>
+	        <item name="android:shadowDy">3</item>
+	    </style>
+</resources>

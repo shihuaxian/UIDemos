@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:drawable/picture_frame" >
+
+	<ListView 
+	    android:id="@id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:divider="@android:drawable/divider_horizontal_bright"
+		android:listSelector="@android:color/transparent"
+		android:drawSelectorOnTop="false"
+		android:cacheColorHint="@android:color/transparent"
+	    android:dividerHeight="1dip" />
+</LinearLayout>

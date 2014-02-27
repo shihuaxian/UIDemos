@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#a0a0aaa0">
+    <Button
+        android:id="@+id/title_bar_switch_class_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/str_title_bar_btn_to_main" />
+    <Button
+        android:id="@+id/title_bar_switch_class_force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/title_bar_switch_class_back"
+        android:layout_centerVertical="true"
+        android:text="@string/str_title_bar_class_force" />
+    <Button
+        android:id="@+id/title_bar_switch_class_wisdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/title_bar_switch_class_force"
+        android:layout_centerVertical="true"
+        android:text="@string/str_title_bar_class_wisdom" />
+    <Button
+        android:id="@+id/title_bar_switch_class_politics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/title_bar_switch_class_wisdom"
+        android:layout_centerVertical="true"
+        android:text="@string/str_title_bar_class_politics" />    
+</RelativeLayout>
